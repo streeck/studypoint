@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="1149.9209"
-     inkscape:cy="362.94504"
+     inkscape:zoom="0.24748738"
+     inkscape:cx="1297.9148"
+     inkscape:cy="601.27763"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -43,7 +43,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,36 +56,36 @@
        id="rect3156-6-7"
        width="547.83997"
        height="598.78174"
-       x="1228.9371"
-       y="103.30056"
+       x="117.76934"
+       y="208.35643"
        ry="46.963272" />
     <rect
        style="fill:#ffffff;stroke:none"
        id="rect3156"
        width="529.28571"
        height="578.5022"
-       x="1238.2142"
-       y="113.44032"
+       x="127.04644"
+       y="218.49619"
        ry="45.372723" />
     <rect
        style="fill:#0000ff;stroke:none"
        id="rect3156-6"
        width="518.77673"
        height="570.22858"
-       x="1243.9738"
-       y="117.35594"
+       x="132.80597"
+       y="222.4118"
        ry="44.723812" />
     <rect
        style="fill:#ffffff;stroke:none"
        id="rect3156-6-4"
        width="438.33737"
        height="314.37741"
-       x="1284.1934"
-       y="178.57263"
+       x="173.02557"
+       y="283.62851"
        ry="24.657051" />
     <g
        id="g3214"
-       transform="matrix(0.83577263,0,0,0.83577263,1172.413,-36.470192)">
+       transform="matrix(0.83577263,0,0,0.83577263,61.245209,68.585672)">
       <path
          sodipodi:nodetypes="czscssccccc"
          inkscape:connector-curvature="0"
@@ -109,7 +109,7 @@
        xml:space="preserve"
        id="flowRoot3219"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
-       transform="translate(3.7381216,14.142136)"><flowRegion
+       transform="translate(-1107.4297,119.198)"><flowRegion
          id="flowRegion3221"><rect
            id="rect3223"
            width="448.50772"
