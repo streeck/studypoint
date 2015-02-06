@@ -2,7 +2,15 @@
 # Sharing is Caring
  
 Uma simples ideia para se compartilhar entre os colegas datas e material de apoio para provas e trabalhos de uma maneira mais organizada e centralizada.
- 
+
+## TODO List
+
+- Check IndexedDB(for Client-Side, when offline) and MongoDB(server-side).
+- Learn Node.js.
+- Web Services with Golang.
+- Learn Bootstrap.
+- A shit-load more...
+
 ## Contributing
  
 1. Fork it!
