@@ -3,6 +3,8 @@
  
 Uma simples ideia para se compartilhar entre os colegas datas e material de apoio para provas e trabalhos de uma maneira mais organizada e centralizada.
 
+[Live demo](http://streeck.github.io/studypoint/)
+
 ## TODO List
 
 - Check IndexedDB(for Client-Side, when offline) and MongoDB(server-side).
