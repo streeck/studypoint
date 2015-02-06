@@ -2,9 +2,6 @@ html {
     position: relative;
     min-height: 100%;
 }
-body {
-    margin: 0 0 100px; /* bottom = footer height */
-}
 footer {
     background: black;
     position: absolute;
@@ -12,4 +9,41 @@ footer {
     bottom: 0;
     height: 100px;
     width: 100%;
+}
+footer, p{
+  color: white;
+}
+body {
+	background-color: white;
+  margin: 0 0 100px; /* bottom = footer height */
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+
+/* Parte dos perfis. */
+.perfil li {
+	float: left;
+	padding: 6px;
+	margin: 0;
+}
+
+
+/* Parte das matérias. */
+.conteudo ul {
+	padding-top: 60px;
+}
+
+.conteudo li {
+	margin: 0;
+	padding: 6px;
+	list-style-type: none;
+}
+
+#perfil1-subjects {
+	display: none;
+}
+
+#perfil2-subjects {
+	display: none;
 }
