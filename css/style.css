@@ -20,6 +20,13 @@ body {
 	margin-right: 25%;
 }
 
+#mainPage{
+  color: black;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
 #menu{
   height: 0;
   width: 200px;

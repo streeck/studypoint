@@ -10,15 +10,17 @@
 <body>
 
 <div id = "menu">
-  <li>TESTE</li>
+  <li>PERFIL 1</li>
+  <li>PERFIL 2</li>
+  <li>PERFIL 3</li>
+  <li>PERFIL 4</li>
 </div>
 
   <div id = "mainPage">
     <nav>
-      <p id="teste">hehe</p>
     </nav>
     <footer>
-
+      <p id="teste">Testando rodapé</p>
     </footer>
   </div>
 
@@ -27,11 +29,21 @@
 
 
 <script>
+animacao = 0;
 $("#teste").click(function(){
-    $("#menu").animate({
-      height: "+100%"
-      },500, function(){
-      });
+    if(animacao == 0){
+      $("#menu").animate({
+        height: "+100%"
+        },500
+      );
+      animacao = 1;
+    }else{
+       $("#menu").animate({
+        height: "-100%"
+        },500
+      );
+       animacao = 0;
+    }
 });
 </script>
 
