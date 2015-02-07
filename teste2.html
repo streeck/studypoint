@@ -3,22 +3,37 @@
 <head>
   <title> Testando features do CSS</title>
   <meta charset="UTF-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
 
+<div id = "menu">
+  <li>TESTE</li>
+</div>
+
   <div id = "mainPage">
     <nav>
-
+      <p id="teste">hehe</p>
     </nav>
     <footer>
-      
+
     </footer>
   </div>
 
 
 </body>
+
+
+<script>
+$("#teste").click(function(){
+    $("#menu").animate({
+      height: "+100%"
+      },500, function(){
+      });
+});
+</script>
 
 
 </html>
