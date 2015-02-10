@@ -9,8 +9,9 @@
 
 </head>
 <body>
-	<div class="perfil">
-		<ul>
+
+  <div id="menu">
+ 		<ul>
 			<li id="perfil1">Perfil 1</li>
 			<li id="perfil2">Perfil 2</li>
 			<li id="perfil3">Perfil 3</li>
@@ -20,6 +21,8 @@
 			<li id="perfil7">Perfil 7</li>
 			<li id="perfil8">Perfil 8</li>
 		</ul>
+  </div>
+	<div class="perfil">
 	</div>
 
 	<div class="conteudo">
@@ -54,7 +57,27 @@
 		<div id="perfil8-subjects"></div>
 	</div>
   <footer>
-    <p id="footerText"> Just some examples!!111!!"</p>
+    <p id="botao">Perfil</p>
   </footer>
 </body>
+<script>
+animacao = 0;
+$("#botao").click(function(){
+    if(animacao == 0){
+      $("#menu").animate({
+        height: "+100%"
+        },500
+      );
+      animacao = 1;
+    }else{
+       $("#menu").animate({
+        height: "-100%"
+        },500
+      );
+       animacao = 0;
+    }
+});
+</script>
+
+
 </html>
